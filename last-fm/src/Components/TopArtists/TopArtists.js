@@ -17,7 +17,7 @@ useEffect(() => {
     .catch(function (error) {
         console.log(error);
     })
-});
+},[]);
 
 const data = response.map(item => {
     return {    
@@ -66,6 +66,8 @@ const options =  {
   
     series: [
       {
+        type: 'column',
+        colorByPoint: true,
         data: data
       }
     ],      

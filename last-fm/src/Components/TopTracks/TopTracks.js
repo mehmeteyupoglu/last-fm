@@ -66,10 +66,14 @@ const options =  {
   
     series: [
       {
+        type: 'column',
+        colorByPoint: true,
         data: data
       }
     ],      
 }
+
+
 
     return (
         <div>
