@@ -1,4 +1,5 @@
 import Header from "./Header"
-import MainBody from "./MainBody"
+import TopArtists from "./TopArtists"
+import TopTracks from "./TopTracks"
 
-export { Header, MainBody}
+export { Header, TopArtists, TopTracks }

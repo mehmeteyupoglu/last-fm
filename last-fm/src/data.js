@@ -1,6 +1,8 @@
 const axios = require('axios');
 
-export const data1 = () => {axios.get('http://ws.audioscrobbler.com/2.0/?method=geo.getTopTracks&country=spain&limit=10&api_key=97cee60fe2193b383cd8377301901a80&format=json')
+const API_KEY = "97cee60fe2193b383cd8377301901a80"
+
+export const data1 = () => {axios.get(`http://ws.audioscrobbler.com/2.0/?method=geo.getTopTracks&country=spain&limit=10&api_key=${API_KEY}&format=json`)
   .then(function (response) {
     // handle success
     console.log(`Data 1: `, response);
@@ -13,7 +15,7 @@ export const data1 = () => {axios.get('http://ws.audioscrobbler.com/2.0/?method=
     // always executed
   });}
 
-export const data2 = axios.get('http://ws.audioscrobbler.com/2.0/?method=geo.getTopArtists&country=spain&limit=10&api_key=97cee60fe2193b383cd8377301901a80&format=json')
+export const data2 = axios.get(`http://ws.audioscrobbler.com/2.0/?method=geo.getTopArtists&country=spain&limit=10&api_key=${API_KEY}&format=json`)
 .then(function (response) {
   // handle success
   console.log(`Data 2: `, response);

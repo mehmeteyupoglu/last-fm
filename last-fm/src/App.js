@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
-import { Header, MainBody } from "./Components"
+import { Header, TopArtists, TopTracks } from "./Components"
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <MainBody />
+      <TopArtists />
+      <TopTracks />
     </div>
   );
 }

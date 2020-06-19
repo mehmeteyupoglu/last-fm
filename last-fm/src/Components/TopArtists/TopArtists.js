@@ -1,16 +1,15 @@
 import React, { useEffect, useState } from 'react';
-import { data1 } from '../../data.js'
 import Highcharts from 'highcharts';
 import HighchartsReact from 'highcharts-react-official';
 
 const axios = require('axios');
 
-const MainBody = () => {
+const TopArtists = () => {
 
 const [response, setResponse] = useState([]);
     
 useEffect(() => {
-
+  
     axios.get('http://ws.audioscrobbler.com/2.0/?method=geo.getTopArtists&country=spain&limit=10&api_key=97cee60fe2193b383cd8377301901a80&format=json')
     .then(function (response) {
         setResponse(response.data.topartists.artist)
@@ -82,4 +81,4 @@ const options =  {
     );
 }
 
-export default MainBody;
+export default TopArtists;
