@@ -1,16 +1,10 @@
-import React,  { useEffect } from 'react';
-import { data } from "../../data.js"
+import React from 'react';
 
 const Header = () => {
-
-    useEffect(() => {
-        // Update the document title using the browser API
-        console.log(data)
-      });
     
     return (
         <div>
-            <h1>I am the Header</h1>
+            <h1>Last FM</h1>
         </div>
     );
 }
