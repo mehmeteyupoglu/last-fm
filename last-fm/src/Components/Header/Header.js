@@ -7,7 +7,7 @@ const Header = () => {
         <div>
             <StyledHeader>
                 <img 
-                src="https://fontmeme.com/images/Last.fm-Logo.jpg" 
+                src="https://www.last.fm/static/images/lastfm_logo_facebook.1b63d4451dcc.png" 
                 alt="Last Fm logo"
                 className="logo"   
                 />
