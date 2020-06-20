@@ -79,6 +79,7 @@ const options =  {
                 highcharts={Highcharts}
                 options={options}
             />
+
         </div>
     );
 }
