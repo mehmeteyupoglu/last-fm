@@ -10,7 +10,7 @@ ReactDOM.render(
   <React.StrictMode>
   <Container>
     <Row>
-      <Col sm="12" md={{ size: 10, offset: 1 }}>
+      <Col sm="12" md={{ size: 8, offset: 2 }}>
         <App />
       </Col>
     </Row>

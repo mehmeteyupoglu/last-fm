@@ -33,7 +33,8 @@ const data = response.map(item => {
 }
 
 const myStyle = {
-  margin: "60px 0"
+  margin: "60px 0", 
+  borderRadius: "10"
 }
 
 export default TopTracks;
