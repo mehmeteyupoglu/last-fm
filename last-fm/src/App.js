@@ -7,8 +7,8 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <TopArtists />
-      <TopTracks />
+          <TopArtists />
+          <TopTracks />
     </div>
   );
 }
