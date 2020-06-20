@@ -25,12 +25,9 @@ const data = response.map(item => {
     }
 })
 
-
-
     return (
         <div>
-        <Artists data={data} />
-        
+           <Artists data={data} />
         </div>
     );
 }
