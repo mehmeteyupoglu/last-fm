@@ -73,16 +73,18 @@ const options =  {
     ],      
 }
 
-
-
     return (
-        <div>
-        <HighchartsReact
-            highcharts={Highcharts}
-            options={options}
-        />
+        <div style={myStyle}>          
+            <HighchartsReact
+                highcharts={Highcharts}
+                options={options}
+            />
         </div>
     );
+}
+
+const myStyle = {
+  margin: "60px 0"
 }
 
 export default TopTracks;
