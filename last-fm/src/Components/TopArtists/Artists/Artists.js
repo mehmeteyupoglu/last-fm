@@ -8,7 +8,7 @@ const Artists = (props) => {
           type: 'column'
         },
         title: {
-          text: 'The Top Artists. January, 2020'
+          text: 'The Top Artists. June, 2020'
         },
         subtitle: {
           text: 'Fazla Gida Case '
@@ -32,13 +32,13 @@ const Artists = (props) => {
             borderWidth: 0,
             dataLabels: {
               enabled: true,
-              format: '{point.y:.1f}%'
+              format: '{point.y:.1f}'
             }
           }
         },
         tooltip: {
           headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
-          pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:.2f}%</b> of total<br/>'
+          pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:.2f}</b> of total<br/>'
         },
       
         series: [
