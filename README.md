@@ -1,9 +1,9 @@
 # LAST FM STATISTICS APP
 
-The project prints the top 10 tracks and top 10 artists listened in Spain in June 2020. <br/>
-The charts are created with [Highcharts](https://github.com/highcharts/highcharts-react) package. <br />
-The data rendered by highcharts is retrieved from [the Last FM API](https://www.last.fm/api/) <br />
-Data retrieving is handled by [Axios](https://github.com/axios/axios)
+- The project prints the top 10 tracks and top 10 artists listened in Spain in June 2020. <br/>
+- The charts are created with [Highcharts](https://github.com/highcharts/highcharts-react) package. <br />
+- The data rendered by highcharts is retrieved from [the Last FM API](https://www.last.fm/api/). <br />
+- Data retrieving is handled by [Axios](https://github.com/axios/axios).
 
 ## SETUP
 
