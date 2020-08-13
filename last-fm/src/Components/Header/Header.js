@@ -1,19 +1,15 @@
-import React from 'react';
-import { StyledHeader } from "./styles"
+import React from "react";
+import { StyledHeader } from "./styles";
 
 const Header = () => {
-    
-    return (
-        <div>
-            <StyledHeader>
-                <img 
-                src="https://www.last.fm/static/images/lastfm_logo_facebook.1b63d4451dcc.png" 
-                alt="Last Fm logo"
-                className="logo"   
-                />
-            </StyledHeader>
-        </div>
-    );
-}
+  const logo = require("../../Assets/unnamed (1).png");
+  return (
+    <div>
+      <StyledHeader>
+        <img src={logo} alt="Last Fm logo" className="logo" />
+      </StyledHeader>
+    </div>
+  );
+};
 
 export default Header;
